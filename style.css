@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.advice {
+  background-color: #ef33b4;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+.advice_title {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+.service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  row-gap: 50px;
+  padding: 80px 0;
+}
+
+.service_item {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #808080;
+}
+
+.service_title {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #4d4d4d;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.consistent {
+  margin-top: 5px;
+  background: #ebf0ff;
+  border: 3px dashed #3b72ff;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  /* width: 1170px; */
+}
+
+.consistent_title {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ef33b4;
+  margin-top: 40px;
+}
+.consistent_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: center;
+  text-transform: capitalize;
+  color: #3b72ff;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  padding: 0 200px;
+}
+
+h3 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 130%;
+  color: #ef33b4;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+hr {
+  background: #3b72ff;
+  width: 4px;
+  height: 46px;
+  margin-right: 14px;
+  display: inline;
+}
+.last {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px;
+}
+
+.last_title {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #4d4d4d;
+}
+.last_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #808080;
+}
